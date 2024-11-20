@@ -36,7 +36,7 @@ const Contact = () => {
     return (
         <div>
 
-            <div className="relative flex justify-center">
+            <div className="relative flex justify-center mt-[1900px] md:mt-[1100px] lg:mt-6">
                 {/* Background Text */}
                 <h1 className="absolute inset-0 flex justify-center mt-10 text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gray-700 opacity-10">
                     Contact Me

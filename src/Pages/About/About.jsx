@@ -18,9 +18,9 @@ const About = () => {
 
 
             {/* Background Shape */}
-            <div className="absolute  justify-end items-center bg-cover bg-center hidden lg:flex">
+            {/* <div className="absolute  justify-end items-center bg-cover bg-center hidden lg:flex">
                 <Lottie animationData={about} loop={true} className=" object-cover opacity-15  z-10 " />
-            </div>
+            </div> */}
 
 
 
@@ -43,7 +43,7 @@ const About = () => {
             </div>
 
 
-            <div className="container mx-auto px-4 py-6">
+            <div className="container mx-auto px-4 py-4">
                 {/* Left Side */}
                 <div className="flex flex-col lg:flex-row items-center justify-between text-red-600 mt-10 lg:mt-40 p-6 lg:p-10">
                     {/* Text Content */}

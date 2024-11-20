@@ -40,7 +40,7 @@ export default function NavBar() {
 
             {/* Nav Links */}
             <div className="md:flex justify-between items-center container mx-auto  lg:p-6 md:p-4">
-                <div className="hidden md:block text-white text-2xl font-bold">Profile</div>
+                <div className="hidden md:block text-white text-2xl font-bold italic">Rashedul</div>
 
                 <ul className={`md:flex md:space-x-8 text-white font-medium transition-all duration-1000 ease-in-out text-center  ${open ? 'top-24' : '-top-96'} md:block bg-[#5271FF]  md:bg-transparent absolute md:static  md:top-auto left-0  w-full md:w-auto p-6 md:p-0  md:z-auto rounded-md md:rounded-none z-50 `}>
                     {navLink}
